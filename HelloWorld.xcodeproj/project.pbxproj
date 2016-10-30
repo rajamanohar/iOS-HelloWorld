@@ -8,13 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		F66071DC1DC41D1300ABF981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66071DB1DC41D1300ABF981 /* AppDelegate.swift */; };
-		F66071DE1DC41D1300ABF981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66071DD1DC41D1300ABF981 /* ViewController.swift */; };
 		F66071E11DC41D1300ABF981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66071DF1DC41D1300ABF981 /* Main.storyboard */; };
 		F66071E41DC41D1300ABF981 /* HelloWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F66071E21DC41D1300ABF981 /* HelloWorld.xcdatamodeld */; };
 		F66071E61DC41D1300ABF981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66071E51DC41D1300ABF981 /* Assets.xcassets */; };
 		F66071E91DC41D1300ABF981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66071E71DC41D1300ABF981 /* LaunchScreen.storyboard */; };
 		F66071F41DC41D1300ABF981 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66071F31DC41D1300ABF981 /* HelloWorldTests.swift */; };
 		F66071FF1DC41D1300ABF981 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66071FE1DC41D1300ABF981 /* HelloWorldUITests.swift */; };
+		F665C7161DC6522A001043F3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C7151DC6522A001043F3 /* TabBarController.swift */; };
+		F665C7171DC6522A001043F3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C7151DC6522A001043F3 /* TabBarController.swift */; };
+		F665C7181DC6522A001043F3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C7151DC6522A001043F3 /* TabBarController.swift */; };
+		F665C71A1DC653D1001043F3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C7191DC653D1001043F3 /* HomeViewController.swift */; };
+		F665C71B1DC653D1001043F3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C7191DC653D1001043F3 /* HomeViewController.swift */; };
+		F665C71C1DC653D1001043F3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C7191DC653D1001043F3 /* HomeViewController.swift */; };
+		F665C71E1DC65438001043F3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C71D1DC65438001043F3 /* SettingsViewController.swift */; };
+		F665C71F1DC65438001043F3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C71D1DC65438001043F3 /* SettingsViewController.swift */; };
+		F665C7201DC65438001043F3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C71D1DC65438001043F3 /* SettingsViewController.swift */; };
+		F665C7221DC68838001043F3 /* MyMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C7211DC68838001043F3 /* MyMusicViewController.swift */; };
+		F665C7231DC68838001043F3 /* MyMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C7211DC68838001043F3 /* MyMusicViewController.swift */; };
+		F665C7241DC68838001043F3 /* MyMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C7211DC68838001043F3 /* MyMusicViewController.swift */; };
+		F665C7261DC6A94D001043F3 /* timthumb.php.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F665C7251DC6A94D001043F3 /* timthumb.php.jpg */; };
+		F665C7271DC6A94D001043F3 /* timthumb.php.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F665C7251DC6A94D001043F3 /* timthumb.php.jpg */; };
+		F665C7281DC6A94D001043F3 /* timthumb.php.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F665C7251DC6A94D001043F3 /* timthumb.php.jpg */; };
+		F665C72A1DC6A993001043F3 /* pangaea-1-250x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F665C7291DC6A993001043F3 /* pangaea-1-250x150.jpg */; };
+		F665C72B1DC6A993001043F3 /* pangaea-1-250x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F665C7291DC6A993001043F3 /* pangaea-1-250x150.jpg */; };
+		F665C72C1DC6A993001043F3 /* pangaea-1-250x150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F665C7291DC6A993001043F3 /* pangaea-1-250x150.jpg */; };
+		F665C72E1DC6B029001043F3 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C72D1DC6B029001043F3 /* PlayerViewController.swift */; };
+		F665C72F1DC6B029001043F3 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C72D1DC6B029001043F3 /* PlayerViewController.swift */; };
+		F665C7301DC6B029001043F3 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665C72D1DC6B029001043F3 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +57,6 @@
 /* Begin PBXFileReference section */
 		F66071D81DC41D1300ABF981 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66071DB1DC41D1300ABF981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F66071DD1DC41D1300ABF981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F66071E01DC41D1300ABF981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F66071E31DC41D1300ABF981 /* HelloWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloWorld.xcdatamodel; sourceTree = "<group>"; };
 		F66071E51DC41D1300ABF981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +68,13 @@
 		F66071FA1DC41D1300ABF981 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66071FE1DC41D1300ABF981 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		F66072001DC41D1300ABF981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F665C7151DC6522A001043F3 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F665C7191DC653D1001043F3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F665C71D1DC65438001043F3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F665C7211DC68838001043F3 /* MyMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMusicViewController.swift; sourceTree = "<group>"; };
+		F665C7251DC6A94D001043F3 /* timthumb.php.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timthumb.php.jpg; sourceTree = "<group>"; };
+		F665C7291DC6A993001043F3 /* pangaea-1-250x150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pangaea-1-250x150.jpg"; sourceTree = "<group>"; };
+		F665C72D1DC6B029001043F3 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +125,12 @@
 		F66071DA1DC41D1300ABF981 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				F665C7141DC63F8B001043F3 /* Models */,
+				F665C7131DC63F80001043F3 /* Controllers */,
 				F66071DB1DC41D1300ABF981 /* AppDelegate.swift */,
-				F66071DD1DC41D1300ABF981 /* ViewController.swift */,
 				F66071DF1DC41D1300ABF981 /* Main.storyboard */,
+				F665C7291DC6A993001043F3 /* pangaea-1-250x150.jpg */,
+				F665C7251DC6A94D001043F3 /* timthumb.php.jpg */,
 				F66071E51DC41D1300ABF981 /* Assets.xcassets */,
 				F66071E71DC41D1300ABF981 /* LaunchScreen.storyboard */,
 				F66071EA1DC41D1300ABF981 /* Info.plist */,
@@ -126,6 +155,25 @@
 				F66072001DC41D1300ABF981 /* Info.plist */,
 			);
 			path = HelloWorldUITests;
+			sourceTree = "<group>";
+		};
+		F665C7131DC63F80001043F3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F665C7151DC6522A001043F3 /* TabBarController.swift */,
+				F665C7191DC653D1001043F3 /* HomeViewController.swift */,
+				F665C71D1DC65438001043F3 /* SettingsViewController.swift */,
+				F665C7211DC68838001043F3 /* MyMusicViewController.swift */,
+				F665C72D1DC6B029001043F3 /* PlayerViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F665C7141DC63F8B001043F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +288,9 @@
 			files = (
 				F66071E91DC41D1300ABF981 /* LaunchScreen.storyboard in Resources */,
 				F66071E61DC41D1300ABF981 /* Assets.xcassets in Resources */,
+				F665C72A1DC6A993001043F3 /* pangaea-1-250x150.jpg in Resources */,
 				F66071E11DC41D1300ABF981 /* Main.storyboard in Resources */,
+				F665C7261DC6A94D001043F3 /* timthumb.php.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +298,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F665C7271DC6A94D001043F3 /* timthumb.php.jpg in Resources */,
+				F665C72B1DC6A993001043F3 /* pangaea-1-250x150.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F665C7281DC6A94D001043F3 /* timthumb.php.jpg in Resources */,
+				F665C72C1DC6A993001043F3 /* pangaea-1-250x150.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F665C71A1DC653D1001043F3 /* HomeViewController.swift in Sources */,
 				F66071E41DC41D1300ABF981 /* HelloWorld.xcdatamodeld in Sources */,
-				F66071DE1DC41D1300ABF981 /* ViewController.swift in Sources */,
+				F665C7161DC6522A001043F3 /* TabBarController.swift in Sources */,
+				F665C72E1DC6B029001043F3 /* PlayerViewController.swift in Sources */,
+				F665C7221DC68838001043F3 /* MyMusicViewController.swift in Sources */,
 				F66071DC1DC41D1300ABF981 /* AppDelegate.swift in Sources */,
+				F665C71E1DC65438001043F3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +334,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66071F41DC41D1300ABF981 /* HelloWorldTests.swift in Sources */,
+				F665C7171DC6522A001043F3 /* TabBarController.swift in Sources */,
+				F665C7231DC68838001043F3 /* MyMusicViewController.swift in Sources */,
+				F665C71B1DC653D1001043F3 /* HomeViewController.swift in Sources */,
+				F665C71F1DC65438001043F3 /* SettingsViewController.swift in Sources */,
+				F665C72F1DC6B029001043F3 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +347,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66071FF1DC41D1300ABF981 /* HelloWorldUITests.swift in Sources */,
+				F665C7181DC6522A001043F3 /* TabBarController.swift in Sources */,
+				F665C7241DC68838001043F3 /* MyMusicViewController.swift in Sources */,
+				F665C71C1DC653D1001043F3 /* HomeViewController.swift in Sources */,
+				F665C7201DC65438001043F3 /* SettingsViewController.swift in Sources */,
+				F665C7301DC6B029001043F3 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +487,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FE9U5P4UK3;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.incubationcenter.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incubationcenter.singleapp.helloworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -432,12 +504,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FE9U5P4UK3;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.incubationcenter.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.incubationcenter.singleapp.helloworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -518,6 +594,7 @@
 				F66072051DC41D1300ABF981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F66072061DC41D1300ABF981 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +603,7 @@
 				F66072081DC41D1300ABF981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F66072091DC41D1300ABF981 /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +612,7 @@
 				F660720B1DC41D1300ABF981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
